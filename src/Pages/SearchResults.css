@@ -1,0 +1,54 @@
+/* SearchResult.css */
+
+.show-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .shows-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* Adjust as needed */
+    gap: 20px;
+  }
+  
+  .single-show {
+    text-decoration: none;
+    color: inherit;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .single-show:hover {
+    transform: scale(1.05);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .show-info {
+    padding: 15px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  span {
+    color: #666;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .vote-average {
+    color: #007bff;
+    font-weight: bold;
+  }
+  

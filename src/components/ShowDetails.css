@@ -1,0 +1,39 @@
+/* ShowDetails.css */
+
+.show-details-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Adjusted max-width for screen fit */
+  margin: auto; /* Center the card */
+}
+
+.show-details-card img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+}
+
+.show-details-content {
+  margin-top: 12px;
+}
+
+.show-details-content h1 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.show-details-content h2 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.show-details-content p {
+  font-size: 14px;
+  line-height: 1.4;
+}

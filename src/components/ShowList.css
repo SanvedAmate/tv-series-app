@@ -1,0 +1,87 @@
+/* ShowList.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  justify-content: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.pageTitle {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.genres {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.selectedGenre {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.trending {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.single-show {
+  text-decoration: none;
+  color: inherit;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.single-show:hover {
+  transform: scale(1.05);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.show-info {
+  padding: 15px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+span {
+  color: #666;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.vote-average {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Add styles for pagination container */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
